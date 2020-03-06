@@ -10,7 +10,7 @@ Attendance: Attendance is mandatory in all class sessions!
 Course evaluation: The purpose of this course is to help you gain skills you will need for more advanced digital work, whether in the humanities or in any other field where you find yourself handling any sort of structured data. Since everyone has a different starting point, evaluation will be based primarily on how well you have demonstrated that you have tried to learn the material. Students will gain points for asking questions as well as answering them, and will lose points if they are found to be stuck and didn't ask for help. Review quizzes will be held at the beginning of sessions 3 and 6.
 
 
-## Schedule 2019S
+## Schedule 2020S
 Time | 10 March | 24 March | 21 April | 5 May | 19 May | 16 June |
 ---- | ---- | ---- | ---- | ---- | ---- | ----
 13:15 – 14:45 |  [Intro and Setup](lectures/intro_and_setup.md) | [Command line 3](lectures/command_3.md) | [Regular expressions 1](lectures/regex_1.md) | [Git](lectures/git.md) | [How the Internet works](lectures/internet.md) | [Command line 4](lectures/command_4.md)
