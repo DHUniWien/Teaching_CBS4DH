@@ -7,15 +7,17 @@ Instructor: Tara L. Andrews<br>
 Office hours: Monday 3–4pm (please appoint in advance)<br>
 Attendance: Attendance is mandatory in all class sessions!
 
-Course evaluation: The purpose of this course is to help you gain skills you will need for more advanced digital work, whether in the humanities or in any other field where you find yourself handling any sort of structured data. Since everyone has a different starting point, evaluation will be based primarily on how well you have demonstrated that you have tried to learn the material. Students will gain points for asking questions as well as answering them, and will lose points if they are found to be stuck and didn't ask for help. Review quizzes will be held at the beginning of sessions 3 and 6.
+Course evaluation: The purpose of this course is to help you gain skills you will need for more advanced digital work, whether in the humanities or in any other field where you find yourself handling any sort of structured data. Since everyone has a different starting point, evaluation will be based primarily on how well you have demonstrated that you have tried to learn the material. Students will gain points for asking questions as well as answering them, and will lose points if they are found to be stuck and didn't ask for help.
+
+**n.b.** This course, like so many others, was moved online at short notice. Sessions are therefore extremely likely to be rescheduled, and quizzes will not be administered. Evaluation will be primarily on whether students participate in the class forums on Moodle, asking questions when they are stuck and/or helping others to become unstuck.
 
 
 ## Schedule 2020S
-Time | 10 March | 24 March | 21 April | 5 May | 19 May | 16 June |
+Time | 10 March | 24 March (remote) | 21 April (remote) | 5 May (remote) | 19 May (remote) | 16 June (remote) |
 ---- | ---- | ---- | ---- | ---- | ---- | ----
-13:15 – 14:45 |  [Intro and Setup](lectures/intro_and_setup.md) | [Command line 3](lectures/command_3.md) | [Regular expressions 1](lectures/regex_1.md) | [Git](lectures/git.md) | [How the Internet works](lectures/internet.md) | [Command line 4](lectures/command_4.md)
+13:15 – 14:45 |  [Intro and Setup](lectures/intro_and_setup.md) | [Command line 3](lectures/command_3.md) | [Regular expressions 1](lectures/regex_1.md) | [Files and encodings](lectures/files_encodings.md) | [How the Internet works](lectures/internet.md) | [Git](lectures/git.md)
 14:45 – 15:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
-15:00 – 16:30 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Files and encodings](lectures/files_encodings.md) | [Regular expressions 2](lectures/regex_2.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
+15:00 – 16:30 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Command line 4](lectures/command_4.md) | [Regular expressions 2](lectures/regex_2.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
 16:30 – 16:45 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
 16:45 – 18:15 |  [Command line 2](lectures/command_2.md) | Review | Review | Review | Review | [More DH](lectures/final_more.md) and wrap-up
 
