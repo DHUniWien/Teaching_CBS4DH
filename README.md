@@ -19,7 +19,7 @@ Time | 10 March | 24 March (remote) | 21 April (remote) | 5 May (remote) | 19 Ma
 14:45 – 15:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
 15:00 – 16:30 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Command line 4](lectures/command_4.md) | [Regular expressions 2](lectures/regex_2.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
 16:30 – 16:45 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
-16:45 – 18:15 |  [Command line 2](lectures/command_2.md) | Review | Review | Review | Review | [More DH](lectures/final_more.md) and wrap-up
+16:45 – <s>18:15</s>**17:00** |  [Command line 2](lectures/command_2.md) | Review | Review | Review | Review | [More DH](lectures/final_more.md) and wrap-up
 
 ## Information (u:find)
 ### Aims, contents and method of the course
