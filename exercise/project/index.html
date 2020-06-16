@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise Webpage: Famous People Who Died in 2011</title>
+    <meta name="description" content="This website uses a list of names extracted from Wikipedia to list the famous people who died in 2011">
+    <meta name="author" content="ACDH Lecturers">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <h1>Famous People Who Died in 2011</h1>
+    <p>This website uses a list of names extracted from Wikipedia.</p>
+    <p>See the JavaScript code which fetches and outputs the data here: <a href="https://github.com/acdh-oeaw/Teaching_CBS4DH/blob/master/exercise/lecture4/main.js" target="_blank">https://github.com/acdh-oeaw/Teaching_CBS4DH/blob/master/exercise/lecture4/main.js</a></p>
+    <p>Please use the below buttons to interactively filter the displayed data.</p>
+    <button type="button" value="actor" class="redButton">Actors</button>
+    <button type="button" value="austrian" class="greenButton">Austrians</button>
+    <button type="button" value="auto" class="yellowButton">Auto*</button>
+    <button type="reset" value="reset" class="blueButton">Reset</button>
+    <table id="persons-table">
+      <tr class="table-headings">
+        <th>Birth Year</th>
+        <th>Name</th>
+        <th>Profession</th>
+        <th>Death Date</th>
+      </tr>
+    </table>
+  </body>
+</html>
