@@ -1,30 +1,43 @@
-# Teaching_CBS4DH
-Teaching materials for AR Methodological Workshop - Computational Background Skills for Digital Humanities at University of Vienna.
+# 070175 UE Methodological Workshop - Computational Background Skills for Digital Humanities
+
+Teaching materials for the course "Computational Background Skills for Digital Humanities" as taught at the University of Vienna.
 
 ## Course Information
 
-Instructor: Tara L. Andrews<br>
+*Instructor:* Tara L. Andrews<br>
 Office hours: Monday 3–4pm (please appoint in advance)<br>
-Attendance: Attendance is mandatory in all class sessions!
+Attendance: Attendance is mandatory in all class sessions! Students may miss no more than half of one session.
 
-Course evaluation: The purpose of this course is to help you gain skills you will need for more advanced digital work, whether in the humanities or in any other field where you find yourself handling any sort of structured data. Since everyone has a different starting point, evaluation will be based primarily on how well you have demonstrated that you have tried to learn the material. Students will gain points for asking questions as well as answering them, and will lose points if they are found to be stuck and didn't ask for help.
+*Course evaluation:* The purpose of this course is to help you gain skills you will need for more advanced digital work, whether in the humanities or in any other field where you find yourself handling any sort of structured data. Since everyone has a different starting point, evaluation will be based primarily on how well you have demonstrated that you have tried to learn the material. Students will gain points for asking questions as well as answering them, and will lose points if they are found to be stuck and didn't ask for help.
 
-**n.b.** This course, like so many others, was moved online at short notice. Sessions are therefore extremely likely to be rescheduled, and quizzes will not be administered. Evaluation will be primarily on whether students participate in the class forums on Moodle, asking questions when they are stuck and/or helping others to become unstuck.
+*Modalities:* This course will be held exclusively online, via Zoom, for SS 2021. Units are subject to re-scheduling as necessary to accommodate student progress or needs.
 
+## Schedule 2021SS
 
-## Schedule 2020S
-Time | 10 March | 24 March (remote) | 21 April (remote) | 5 May (remote) | 19 May (remote) | 16 June (remote) |
+The schedule here is given in terms of blocks; the correspondence between blocks and times is given below.
+
+Block | 2 March | 4 March | 9 March | 11 March | 16 March | 18 March |
 ---- | ---- | ---- | ---- | ---- | ---- | ----
-13:15 – 14:45 |  [Intro and Setup](lectures/intro_and_setup.md) | [Command line 3](lectures/command_3.md) | [Regular expressions 1](lectures/regex_1.md) | [How the Internet works](lectures/internet.md) | [Files and encodings](lectures/files_encodings.md) | [Git](lectures/git.md)
-14:45 – 15:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
-15:00 – 16:30 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Command line 4](lectures/command_4.md) | [Regular expressions 2](lectures/regex_2.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
-16:30 – ~16:45~**16:35** |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
-~16:45~**16:35** – ~18:15~**17:00** |  [Command line 2](lectures/command_2.md) | Review | Review | Review | Review | [More DH](lectures/final_more.md) and wrap-up
+1 |  [Intro and Setup](lectures/intro_and_setup.md) | [Command line 3](lectures/command_3.md) | [Regular expressions 1](lectures/regex_1.md) | [How the Internet works](lectures/internet.md) | [Files and encodings](lectures/files_encodings.md) | [Git](lectures/git.md)
+B |  Lunch break | Coffee break | Lunch break | Coffee break | Lunch break | Coffee break
+2 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Command line 4](lectures/command_4.md) | [Regular expressions 2](lectures/regex_2.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
+B |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
+3 |  [Command line 2](lectures/command_2.md) | Review / Practicing Error-speak | Review / Practicing Error-speak | Review / Practicing Error-speak | Review / Practicing Error-speak | [More DH](lectures/final_more.md) and wrap-up
+
+
+Block | 2, 9, 16 March | 4, 18 March | 11 March
+----- | -------------- | ----------- | --------
+1 | 10:45 – 12:15 | 12:30 – 14:00 | 13:15 – 14:45
+B | 12:15 – 12:45 | 14:00 – 14:15 | 14:45 – 15:00
+2 | 12:45 – 14:15 | 14:15 – 15:45 | 15:00 – 16:00
+B | 14:15 – 14:30 | 15:45 – 16:00 | 16:00 – 16:15
+3 | 14:30 – 15:45 | 16:00 – 17:00 | 16:15 – 17:00
+
 
 ## Information (u:find)
 ### Aims, contents and method of the course
 This course is intended to provide basic training and support for further skills courses in the Digital Humanities. It is strongly recommended as a prerequisite to the other DH practical courses.
-As such, students will be required to bring a laptop computer (no tablets!) If this presents a problem, please contact one of the course instructors in advance.
+As such, students will be required to bring a laptop computer (no tablets!) If this presents a problem, please contact the course instructor in advance.
 - Introduction to the command line
 - Introduction to file formats and filesystems
 - Solving the mystery of special characters
@@ -33,7 +46,7 @@ As such, students will be required to bring a laptop computer (no tablets!) If t
 - Where to go for help and how to understand the answers
 
 ### Assessment and permitted materials
-Assessment will be on the basis of class participation, 'question' points, and intermittent quizzes.
+Assessment will be on the basis of class participation, submissions to Moodle as required, and completion of the class project.
 
 ## Exercise Guided Lecture Goals
 We will try to accompany the contents of each course with some practical steps of the exercise, which will lead to a final project in the end.
