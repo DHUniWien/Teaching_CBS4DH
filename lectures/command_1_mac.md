@@ -13,13 +13,15 @@ ____
 * The shell is a program that runs other programs.
 * We use the shell to interact with the computer on the command line (CLI ~ GUI).
 * The Unix philosophy is that you can _pipe_ (chain) together small commands, each of which does one thing well, to do something complex. You can’t do this in a GUI.
-* MacOS 10.14 and earlier: bash = ‘Bourne again shell’ (the original Bourne shell is sh, which you will still run into sometimes!)
-* MacOS 10.15 and later: zsh = 'Z shell', an "extended Bourne shell". Works almost but not entirely like bash.
+* MacOS 10.14 and earlier default: bash = ‘Bourne again shell’ (the original Bourne shell is sh, which you will still run into sometimes!)
+* MacOS 10.15 and later default: zsh = 'Z shell', an "extended Bourne shell". Works almost but not entirely like bash.
+* Not sure which shell you're using? Type `echo $SHELL` at the command prompt.
 * Learn the shell on a need-to-know basis.
 
 ## Launching the shell
 
 * The **Terminal.app** that you will find in the Applications → Utilities folder. (Many Mac users prefer the free third-party <https://www.iterm2.com/>, but in this class we will use Terminal.)
+* **IF YOU ARE USING ZSH**: Run the command `echo setopt interactivecomments >> $HOME/.zprofile` now. You'll thank me later.
 
 ## Looking around
 

@@ -33,7 +33,7 @@ We will do the installation in small groups of 3 or 4. As you run through each i
 - Get the practice data from here: http://swcarpentry.github.io/shell-novice/data/data-shell.zip and unzip it. We strongly recommend that you unzip it on your Desktop.
 - Download and install the Atom code editor: https://atom.io/
 - (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/. The installer will ask you a lot of questions! For most of these, it is fine to accept the default; when you are asked what Git's default editor should be, choose Atom.
-- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities. You will need to make Atom Git's default editor; after Git is installed, you can do this with the command `git config --global core.editor "atom"`.
+- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities. You will need to make Atom Git's default editor; after Git is installed, you can do this with the command `git config --global core.editor "atom --wait"`. 
 
 ## Getting to know your OS
 
