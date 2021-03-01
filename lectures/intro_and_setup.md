@@ -30,9 +30,10 @@ Create a personal GitHub account if you don't already have one: https://github.c
 
 We will do the installation in small groups of 3 or 4. As you run through each installer, read the information you are being given and discuss among yourselves what you think it means! The object is to recognise what you don't understand, and notice the choices that the installer makes by "default" on your behalf.
 
+- Get the practice data from here: http://swcarpentry.github.io/shell-novice/data/data-shell.zip and unzip it. We strongly recommend that you unzip it on your Desktop.
 - Download and install the Atom code editor: https://atom.io/
-- (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/
-- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities.
+- (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/. The installer will ask you a lot of questions! For most of these, it is fine to accept the default; when you are asked what Git's default editor should be, choose Atom.
+- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities. You will need to make Atom Git's default editor; after Git is installed, you can do this with the command `git config --global core.editor "atom"`.
 
 ## Getting to know your OS
 

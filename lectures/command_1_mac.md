@@ -13,14 +13,13 @@ ____
 * The shell is a program that runs other programs.
 * We use the shell to interact with the computer on the command line (CLI ~ GUI).
 * The Unix philosophy is that you can _pipe_ (chain) together small commands, each of which does one thing well, to do something complex. You can’t do this in a GUI.
-* bash = ‘Bourne again shell’ (the original Bourne shell is sh; others include csh, ksh, tcsh, zsh).
+* MacOS 10.14 and earlier: bash = ‘Bourne again shell’ (the original Bourne shell is sh, which you will still run into sometimes!)
+* MacOS 10.15 and later: zsh = 'Z shell', an "extended Bourne shell". Works almost but not entirely like bash.
 * Learn the shell on a need-to-know basis.
 
 ## Launching the shell
 
-* For Mac OS X: the **Terminal.app** that you will find in the Applications → Utilities folder. (Many Mac users prefer the free third-party <https://www.iterm2.com/>.)
-* For Windows: Although **cmd.exe** is the traditional Windows shell, and you may even have used it previously, we recommend **bash**. When you download Git, you'll also download **Git bash**, the command line interface we use and recommend. (We do not recommend the Windows 10 “Ubuntu in Windows”.)
-* For Ubuntu Desktop (Unity): you can hit Ctrl-Alt-T or you can type `Terminal` into the Search box.
+* The **Terminal.app** that you will find in the Applications → Utilities folder. (Many Mac users prefer the free third-party <https://www.iterm2.com/>, but in this class we will use Terminal.)
 
 ## Looking around
 
