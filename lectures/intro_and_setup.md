@@ -22,7 +22,7 @@ We will also try to accompany the contents of each course with some practical st
 ### Grading & Attendance
 Attendance in every lecture is required due to the PI type of block-course.
 
-Regular attendance, following the practical exercise tasks during the lecture and active participation will lead to a final grade.
+Regular attendance, following the practical exercise tasks during the lecture and active participation will count toward your final grade.
 
 ## Required Setup and Tools
 
@@ -32,6 +32,7 @@ We will do the installation in small groups of 3 or 4. As you run through each i
 
 - Download and install the Atom code editor: https://atom.io/
 - (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/
+- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities.
 
 ## Getting to know your OS
 
@@ -39,105 +40,31 @@ Operating systems are system software which manage computer hardware and softwar
 
 ![Operating System](images/operating_system.png)
 
-Most common current OS are:  
+The most common current operating systems are:  
 Windows (Microsoft)  
 macOS (Apple)  
-Linux (Linux community, open-source)  
-Mobile: Android (Google, based on Linux kernel)  
+Linux (Linux community, open-source: RedHat, Ubuntu, Debian, etc.)  
+Mobile: Android (Google, based on the Linux kernel)  
 Mobile: iOS (Apple)  
-
-# Mac
 
 ## File system hierarchy
 
 * What are files?
-* What are directories/folders? <!--Thinking about why we call them folders: a folder and a piece of paper are the same, and can do some of the same things. A folder can also hold pieces of paper.-->
+* What are directories/folders? <!-- Directories are a special kind of file.
+Thinking about why we call them folders: a folder and a piece of paper are the same, and can do some of the same things. A folder can also hold pieces of paper.-->
 * What are programs? <!--Programs are files that can do something, but are still files nonetheless. Take a piece of paper out of your folder, fold it into an airplane, and throw it. It's still a piece of paper you can read from and write on, but it can fly.-->
 * GUI file explorers and file hierarchy
-* `/` as the center of the filesystem universe on Mac/Linux; `\` as the base of each drive on Windows (cf. section below on external drives!)
-* Directories are a special kind of file
-* **MAC/LINUX** `/dev/null`: the black hole of the file system
-* Finding the filesystem location of a file from the MacOS Finder or Windows Explorer: Drag the filename from a Finder windows and drop it in a terminal window to paste the path to the file. Or just view the filename by selecting the file and `Cmd+i` (get info).
-
-
-## Configuring your machine to show filename extensions
-
-* **MAC** Open Finder and select Preferences, click “Advanced”, and check the box next to “Show all filename extensions”.
-* **WINDOWS** <[screenshot](images/getting_to_know_winconfig.png)> In any File Explorer window, click on the “View” tab, and then “Options” on the right to open the “Folder Options” window.
-	* In the “View” tab of this window, uncheck “Hide extensions for known file types” box.
-
-## Configuring your machine to show hidden files
-
-* **Mac OS Sierra**: Open Finder and hit `Cmd+Shift+.` Do the same thing to turn off hidden files.
-* **Mac OS El Capitan**: Open the command line and execute `defaults write com.apple.finder AppleShowAllFiles YES` (or `NO`); restart Finder whenever you change this
-* **Windows** <[screenshot](images/getting_to_know_winconfig.png)> In the same “Folder Options” window as before,
-	* Check “Show hidden files, folders, and drives”.
-		* NOTE: Protected operating system files will still stay hidden.  
-	* Also check “Display the full path in the title bar” (not essential, but recommended).
-
-
 
 ## About files
 
-* Why are some files hidden? <!--If you change something, however small, in some of these files, you can break your computer. Be careful!-->
+* Why are some files hidden? <!--If you change something, however small, in some of these files, you can break your computer. Be careful! -->
 * **Case sensitive** vs **case preserving**: Linux is **case sensitive**, meaning files with the same name but different capitalization are different files (e.g., `finalpaper.txt` is different than `FinalPaper.txt`). Mac OS and Windows are **case preserving**, but not case sensitive. <!-- (This preference can be changed when configuring the filesystem, but certain programs will not run in a case sensitive environment, so it’s best to leave it alone). A case preserving file system will spell the filename as you type it, but if you create a different file with a name that differs only in capitalization, it will overwrite the first one. We recommend not creating filenames that differ only in capitalization even on Linux; not only is it potentially confusing, but you may be collaborating on a project with someone not on Linux. -->
 * **Spaces** in a file and directory names. Why could these be problematic?
 
+## Navigating your filesystem
 
-## File ownership and modes
+Please follow along in the separate guides for [Mac](os_mac.md) and [Windows](os_windows.md).
 
-* See an informational listing of files with `ls -l` for bash or zsh, `ls` or `dir` for Windows PowerShell
-* Unix style modes are mostly about permissions: user, group, other. These can be changed?
-    * `chown` (You probably can’t change ownership on shared systems and don’t need to do it on your own machine. This command is useful if you install something incorrectly.)
-    * `chmod` (“644”, “664” for files; “755”, “775” for directories)
-* Windows doesn't have the same file permission system! Their "mode" tells you what kind of file it is:
-    * `d` - it's a directory
-    * `a` - it's an archive (i.e. a file)
-    * `r` - it's read-only; this means you can't change the contents unless you change the mode first
-    * `h` - it's a hidden file
-    * `s` - it's a system file
-    * `l` - it's (probably) a symbolic link (what's that?? We'll cover this soon.)
-* If you are using Git Bash on Windows, it means that the Unix-style file permission listings are (sort of) lying to you. This is an important point to bear in mind!
+## Next session
 
-
-## Launching a terminal
-
-* **MAC** Launch the`Terminal.app` that you will find in the Applications → Utilities folder.
-* **LINUX** Ubuntu Desktop (Unity): Either hit Ctrl-Alt-T or type `Terminal` into the Search box.
-* **WINDOWS** Launch Git Bash from the Start menu.
-
-## Moving through a filesystem
-<!-- Move the programs and files stuff in here, use cmd.exe -->
-<!-- where is home?  both in cmd and in gui-->
-<!-- language differences for gui and command line-->
-
-* Navigate up and down, with emphasis on the paths in the title bar
-* Drive letter in Windows is part of the path, either `/c/` in Bash or `C:\` in cmd.exe / PowerShell
-* `cd`: change directory <!--Open a command line and begin using `cd`. Explain that `cd` is essentially the same as selecting or clicking a folder. `cd` into your home directory.-->
-* `ls`: list all files. This is equivalent to `dir` in Windows cmd.exe.  <!--Use `ls` to show all the files in your current (when you first open the terminal, home) directory. Compare that to what you now see in your home directory (or C drive “folder”). Then use `cd Documents` to move into your documents folder. This is a relative path, as you’ve navigated relative to where you’ve started. Explain what an absolute path looks like, and try running one. Then run a few relative paths.-->
-
-## File/directory path in file explorer GUI vs. shell
-
-* Matching the GUI file path with the file/directory path in the terminal
-* User-specific directories: where are your home directory, document folder, and desktop? What are their full file/directory paths?
-* Non-English OS’s may have translation/localization applied, but only on the GUI side! Why is this?
-    * In German Windows, my Documents folder appears in the File Explorer as `Dieser PC > Benutzer > Tara L Andrews > Dokumente`, but on the command line as `C:\Users\Tara L Andrews\Documents`.
-
-## External drives and mounting
-How removable and external drives (such as a USB thumbdrive) are treated in GUI vs. terminal environment: **mount points**
-
-* In Mac OS, they are mounted underneath `/Volumes` when you plug them in. Unmount them by following the instructions at [Mount and unmount drives from the command line in Mac OS X](http://osxdaily.com/2013/05/13/mount-unmount-drives-from-the-command-line-in-mac-os-x/).
-* In Linux, they are mounted as in Mac, usually underneath `/mnt`, though this can vary with the Linux distribution. The mount points can be controlled in `/etc/fstab`.
-* In Windows, they are assigned a new drive letter in parallel with `C:`, e.g. `D:` or . (Does anyone know why we don't tend to see `A:` or `B:`?). This is translated into Git Bash as `/d`, parallel with `/c`.
-
-## How to run a program as an administrator
-
-* **MAC/LINUX** The GUI will generally ask you if you need to do this. If you are on the command line, precede the command with `sudo`.
-* **WINDOWS** Right click on a program icon (say, Command Prompt) and select “Run as administrator”.
-    * **CAUTION!** You may accidentally break your system by removing essential files or directories. Use only when you have a good reason to; close program when done.
-
-## Environment variables (aka system variables)
-
-* How to view environment variables in a terminal: use the command `set`
-* How to view environment variables through a GUI (**WINDOWS ONLY**)
-	* File Explorer -> Right click on 'This PC', select 'Properties' -> Advanced System Settings -> Environment Variables
+After the lunch break we will run parallel sessions for Mac and Windows users. Please make sure you are in the appropriate group!
