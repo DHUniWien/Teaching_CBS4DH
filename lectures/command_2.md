@@ -26,7 +26,7 @@
 
 ### And something new
 
-* `$!`: last word of last command
+* `!$`: last word of last command
 * `Ctrl+r`: initiate (or continue) history search
 
 ## Getting around the file system review

@@ -19,10 +19,34 @@ As such, students will be required to bring a laptop computer (no tablets!) If t
 
 We will also try to accompany the contents of each course with some practical steps of the exercise, which will lead to a final project in the end.
 
+<!--
+* My background, having computers "grow up" with me
+* Command line was unavoidable for those using the computer in early 80s and 90s
+* That it isn't now is a mark of amazing ingenuity on the part of those who write the OS software, making computers that much more approachable and intuitive for users, and hiding away the "scary" stuff.
+* But what if something goes wrong?
+* Along the way, people by & large have lost sight of what is going on "under the hood", which means you feel helpless when you see an error message. (Favorite: when Windows message tells you to speak to your system administrator. But who is that? You!)
+
+* Who ever / never feels told off by their computer?
+* Error messages and unhelpfulness
+* You aren't stupid, but the computer certainly can be!
+
+* Aim of this course is thus to make you aware of some things that we all took for granted 25 years ago that all computer users knew, about how computers work.
+* Those who write the error messages still tend to take it for granted that you know this stuff, which makes their attempt to communicate pretty useless.
+* So we are here to learn, to help each other to learn, and to train ourselves out of the fear and shame reaction when the computer tries to tell us that something is wrong. That means that we're going to spend some time practicing how to read documentation and error messages, which are pretty unfriendly genres!
+-->
+
 ### Grading & Attendance
 Attendance in every lecture is required due to the PI type of block-course.
 
 Regular attendance, following the practical exercise tasks during the lecture and active participation will count toward your final grade.
+
+<!--
+* This could be the easiest 1 you ever get: the main criteria is that I need to see that you are trying to learn things.
+* This is a lot harder virtually than in person, so you'll need to help me out a little. What will get you a bad grade in this class is if I discover, or suspect, that you have given up and are sitting out the exercises, because you're too embarrassed to get help.
+* By the same token, if this all comes pretty easily to you, that's great! But then it is your job to help out your fellow students.
+* Will be breaking you up into smaller groups for this, and you will all be responsible for making sure that everyone in your group gets it, as we work through the tutorials.
+* There might be the occasional quiz (if I can make Moodle cooperate) but your quiz scores themselves will be far less important than the evidence you can show that you are learning things and overcoming this fear.
+-->
 
 ## Required Setup and Tools
 
@@ -32,8 +56,8 @@ We will do the installation in small groups of 3 or 4. As you run through each i
 
 - Get the practice data from here: http://swcarpentry.github.io/shell-novice/data/data-shell.zip and unzip it. We strongly recommend that you unzip it on your Desktop.
 - Download and install the Atom code editor: https://atom.io/
-- (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/. The installer will ask you a lot of questions! For most of these, it is fine to accept the default; when you are asked what Git's default editor should be, choose Atom.
-- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities. You will need to make Atom Git's default editor; after Git is installed, you can do this with the command `git config --global core.editor "atom --wait"`. 
+- (**WINDOWS ONLY**) Download and install Git SCM (including Git Bash): https://gitforwindows.org/. The installer will ask you a lot of questions! For most of these, it is fine to accept the default, and it is just as fine not to have any idea what these questions are talking about. There is only one place you need to pay attention: when you are asked what Git's default editor should be, choose Atom.
+- (**MAC ONLY**) Run the command `xcode-select --install` to install Git and some other useful command line utilities. You are strongly advised to make Atom Git's default editor; after Git is installed, you can do this with the command `git config --global core.editor "atom --wait"`. 
 
 ## Getting to know your OS
 
