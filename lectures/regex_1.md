@@ -2,7 +2,7 @@
 
 ## Setup
 
-For today's lesson you will need to download the following file and unzip it: [regular_expressions.zip](lectures/data/regular_expressions.zip)
+For today's lesson you will need to download the following file and unzip it: [regular_expressions.zip](data/regular_expressions.zip)
 
 ## Reference notes
 
