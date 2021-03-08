@@ -1,5 +1,8 @@
 # Files and encodings
 
+## Preparation:
+
+Download the `pandoc` utility [here](https://pandoc.org/installing.html), either using the Windows or Mac installer as appropriate. We will try it out in this class session, for which we will need to draw on some of our new command line skills!
 
 ## Identifying file types
 
@@ -51,7 +54,7 @@
 
 
 #### Converting between mark up formats
-* https://pandoc.org/
+* Go to https://pandoc.org/ and
 * A lot of dedicated online tools exist as well; just google for it. E.g. [csv2json](https://www.csvjson.com/csv2json)
 
 

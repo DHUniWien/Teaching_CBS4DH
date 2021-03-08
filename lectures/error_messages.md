@@ -1,10 +1,10 @@
 # Don’t panic: interpretation of error messages
 
-Error messages are your friends. Although your immediate reaction to an error message may be one of anxiety, most of the time the message (e.g., text in a dialog box, or the location of a red squiggly line in &lt;oXygen/&gt;) contains information you’ll need in order to correct a problem. Integrated development environments, web browsers, and command lines can all offer you important advice about how to correct problems in your code, but only if you pay attentiont to that advice! Below we explain how to read and understand a few common types of error reporting in XML technologies and Python. Your goal in reading this explanation is not primarily to learn about those specific errors; it’s to learn, in a general way, how to engage confidently and effectively with error reporting during development.
+Error messages are your friends. Although your immediate reaction to an error message may be one of anxiety, most of the time the message (e.g., text in a dialog box, or the location of a red squiggly line in &lt;oXygen/&gt;) contains information you’ll need in order to correct a problem. Integrated development environments, web browsers, and command lines can all offer you important advice about how to correct problems in your code, but only if you pay attention to that advice! Below we explain how to read and understand a few common types of error reporting in XML technologies and Python. Your goal in reading this explanation is not primarily to learn about those specific errors; it’s to learn, in a general way, how to engage confidently and effectively with error reporting during development.
 
 ## Don’t ignore or suppress error messages
 
-New coders sometimes try to reduce the reporting of errors under the mistaken impression that they are reducing errors. That strategy is a mistake. The most damaging error is the one that you don’t know about, the one that gives you an incorrect response without your knowledge. 
+New coders sometimes try to reduce the reporting of errors under the mistaken impression that they are reducing errors. That strategy is a mistake. The most damaging error is the one that you don’t know about, the one that gives you an incorrect response without your knowledge.
 
 ### Read the error message
 
@@ -20,7 +20,7 @@ If you’re using the &lt;oXygen/&gt; XML Editor, which validates strictly, you�
 
 <img src="images/wellformedness_error.png" align="left" width="50%" style="margin-right: 1em;"/>_Well-formed documents_ follow rules that apply to every XML document, meaning there is one root element, there are no overlapping hierarchies, every start tag has a corresponding end tag, etc. In the case illustrated here, for example, &lt;oXygen/&gt; is displaying a red squiggly line because the `<s>` element is missing its end tag, which is a well-formedness violation. The location of the red squiggly line might seem to suggest that there’s an error with the `</book>` end tag, but what it’s really telling you is that the error is _just before_ that end tag. It might seem most natural to a human to write the `</s>` end tag at the end of line 3, but writing it at the beginning of line 4, before the `</book>` end tag, would also be well formed. &lt;oXygen/&gt; can’t know that you’ve forgotten the `</s>` end tag until it sees the `</book>` end tag, which is why it can’t report the error on the preceding line, where a human might think it occurred. The message that &lt;oXygen/&gt; displays at the bottom of the editing window, though, makes it clear that the correction should be to add the missing `</s>` end tag.
 
-_Validity_ is defined as conformity to the schema(s) associated with the document. (Among other things, this means that if there is no schema, all errors are necessarily well-formedness errors.) The following image illustrates a validation error in the XML document instance to the left. The error is that the `<s>` element on lines 4–5 does not contain a `<word>` element, although the Relax NG schema to the right, which is being used for validation, requires that an `<s>` element contain exactly one `<word>` and one `<phrase>` element, intermixed optionally with plain text. The squiggly red line identifies the `<s>` element as the location of the error, and the error message displayed below explains that a required `<word>` element is missing. 
+_Validity_ is defined as conformity to the schema(s) associated with the document. (Among other things, this means that if there is no schema, all errors are necessarily well-formedness errors.) The following image illustrates a validation error in the XML document instance to the left. The error is that the `<s>` element on lines 4–5 does not contain a `<word>` element, although the Relax NG schema to the right, which is being used for validation, requires that an `<s>` element contain exactly one `<word>` and one `<phrase>` element, intermixed optionally with plain text. The squiggly red line identifies the `<s>` element as the location of the error, and the error message displayed below explains that a required `<word>` element is missing.
 ![](images/validity_error.png)
 
 This error message tells us one of two things: either we should change our markup to fit the model in the schema, or change the model to fit the markup.
@@ -37,7 +37,7 @@ The schema, to the left, requires a `<blurb>` to contain exactly one title follo
 
 ### Reference to an undefined pattern
 
-<img align="left" src="images/undefined_pattern.png" width="50%" style="margin-right: 1em;"/> The most common error in Relax NG is also the easiest to fix: a reference to an undefined named pattern. The pattern name you have not defined appears in the error message itself, and a red squiggle appears under the line where you refer to the undefined pattern. Most often, this error message appears because you’ve referred a pattern you haven’t defined yet, and you can fix it by adding the definition. In other cases, though, you may have mistyped the name of the pattern. 
+<img align="left" src="images/undefined_pattern.png" width="50%" style="margin-right: 1em;"/> The most common error in Relax NG is also the easiest to fix: a reference to an undefined named pattern. The pattern name you have not defined appears in the error message itself, and a red squiggle appears under the line where you refer to the undefined pattern. Most often, this error message appears because you’ve referred a pattern you haven’t defined yet, and you can fix it by adding the definition. In other cases, though, you may have mistyped the name of the pattern.
 
 ### Group of “string” or “data” element
 
@@ -45,7 +45,7 @@ The schema, to the left, requires a `<blurb>` to contain exactly one title follo
 
 ### No error message, but something isn’t right
 
-When you develop a schema after the fact, to formalize the structure of an XML document, the schema itself may be valid, but an error message may appear when you validate the XML against the schema. In this development scenario, though, we’ve stipulated that the XML says what it says, so if it isn’t valid against the schema that we’re crafting to model it, we need to fix the schema. 
+When you develop a schema after the fact, to formalize the structure of an XML document, the schema itself may be valid, but an error message may appear when you validate the XML against the schema. In this development scenario, though, we’ve stipulated that the XML says what it says, so if it isn’t valid against the schema that we’re crafting to model it, we need to fix the schema.
 
 ![](images/relaxng_xml_error.png)
 
@@ -79,7 +79,7 @@ This tells indirectly that `<xsl:sort>` cannot be a child of `<xsl:value-of>`. T
 
 ### What are stack traces?
 
-A **stack trace**, also called a **traceback**, is a type of error report produced by Python and other programming languages that shows the chain of events between the line of code that causes an error to arise and the part of the program where the error actually occurs. For example, if function A calls on function B and the user passes input into function A that function B cannot handle, a stack trace will report an error chain from function A (the most recent call, which led to the error) back to function B (the place where Python could not do what it was asked to do). Stack traces can be as deep as they need to be, and being able to read a stack trace is necessary for finding and fixing coding errors. 
+A **stack trace**, also called a **traceback**, is a type of error report produced by Python and other programming languages that shows the chain of events between the line of code that causes an error to arise and the part of the program where the error actually occurs. For example, if function A calls on function B and the user passes input into function A that function B cannot handle, a stack trace will report an error chain from function A (the most recent call, which led to the error) back to function B (the place where Python could not do what it was asked to do). Stack traces can be as deep as they need to be, and being able to read a stack trace is necessary for finding and fixing coding errors.
 
 ### Getting an error report with an interactive command
 
@@ -98,7 +98,7 @@ The first two lines are feedback created when we open the Python shell (yours ma
 
 This error report doesn’t show much information because there isn’t much to trace (we had just one brief line of code) and Python interactive shell doesn’t have a filename, so it reports only `<stdin>` (that is, input that you typed directly) as the location of the error.
 
-To produce, for pedagogical purposes, a more interesting stack trace, let’s define and call some functions. 
+To produce, for pedagogical purposes, a more interesting stack trace, let’s define and call some functions.
 
 #### Getting an error report with a user-defined function
 
@@ -109,11 +109,11 @@ def my_function():
 	zero = 0
 	anumber = divide(zero)
 	return anumber
-	
+
 def divide(denominator):
 	numerator = 6
 	return numerator / denominator
-	     
+
 my_function()
 ```
 
@@ -163,7 +163,7 @@ TypeError: bad operand type for abs(): 'str'TypeError: bad operand type for abs(
 
 The first line is our command prompt (through the dollar sign), after which we’ve typed the command. The rest is the stack trace. Reading from the bottom up, the error is a TypeError, where we tried to apply the `abs()` function to a string ('str') value, which is prohibited. That error occurred inside a list comprehension (`<listcomp>`) in line 2 of our file. The list comprehension was part of a function called `absolute()`, and the error was in line 2 within the function. The `absolute()` function, in turn, was called from the main module of the file (`<module>`), on line 3 of our file.
 
-If we look at the same stack trace from the top down, the line of code where we invoke the `absolute()` function doesn’t know what kinds of arguments `absolute()` can process without error. `absolute()`, in turn, calls on the Python library function `abs()`, but `absolute()` doesn’t know what types of values `abs()` can accept without error. For that reason, the error is only flagged when it reaches the `abs()` function. 
+If we look at the same stack trace from the top down, the line of code where we invoke the `absolute()` function doesn’t know what kinds of arguments `absolute()` can process without error. `absolute()`, in turn, calls on the Python library function `abs()`, but `absolute()` doesn’t know what types of values `abs()` can accept without error. For that reason, the error is only flagged when it reaches the `abs()` function.
 
 #### Stack traces and modules
 
@@ -200,6 +200,6 @@ Once again, the first line is our command prompt (through the dollar sign), foll
 
 #### How to read a stack trace
 
-There are three important moments in a stack trace: the top (the line of our code that provoked an error), the bottom (the place where the error was recognized and reported), and the moment where the errors make the transition from the code we wrote (we wrote the call to the `absolute()` function, and the call to `abs()` within the `absolute()` function) to code that is not under our control (the `abs()` function itself, which is part of the core Python library). 
+There are three important moments in a stack trace: the top (the line of our code that provoked an error), the bottom (the place where the error was recognized and reported), and the moment where the errors make the transition from the code we wrote (we wrote the call to the `absolute()` function, and the call to `abs()` within the `absolute()` function) to code that is not under our control (the `abs()` function itself, which is part of the core Python library).
 
-In this case, that combination of information tells us that the error is happening because we are passing an illegal value from our invocation of the `absolute()` function into the body of that function, and then to the `abs()` function in the core Python library. It also tells us that if we want to trap and handle the error ourselves (for example, we could report illegal values to the user in a more graceful way than by dumping a stack trace, or we could silently ignore illegal values), we need to do it in code that we control. 
+In this case, that combination of information tells us that the error is happening because we are passing an illegal value from our invocation of the `absolute()` function into the body of that function, and then to the `abs()` function in the core Python library. It also tells us that if we want to trap and handle the error ourselves (for example, we could report illegal values to the user in a more graceful way than by dumping a stack trace, or we could silently ignore illegal values), we need to do it in code that we control.

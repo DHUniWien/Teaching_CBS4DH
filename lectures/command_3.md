@@ -4,7 +4,7 @@
 
 * **References:** Much of the content of these sessions is summarized at our [Command line quick reference](command_resources.md) page.
 * **Credit:** Our materials are based on the Software Carpentry [Unix Shell](http://swcarpentry.github.io/shell-novice/) course
-* **Something to play with:** Follow the instructions at <http://swcarpentry.github.io/shell-novice/setup.html> to copy some practice files.
+* **Something to play with:** Download the text of [Alice in Wonderland](https://github.com/DHUniWien/Teaching_CBS4DH/raw/master/lectures/data/alice.txt), as some extra data to practice on.
 
 ## Review day 1
 * Lessons 1-4 from: http://swcarpentry.github.io/shell-novice/
@@ -20,7 +20,7 @@
 
 ### Command line
 
-#### commands and flags:
+#### Review of commands and flags learned so far:
 * `ls` (`-l`, `-a`, `-G`, `-lh`, `-d`, `-d */`, `-1`, `-F`)
 * `whoami`
 * `pwd`, `cd`, and absolute and relative paths (`.  /  ..  ~`)
@@ -29,12 +29,12 @@
 * `touch`
 * `clear`
 
-#### Wildcards
-* `*`
-* `?`
-* `[]`
+#### Wildcards (compare &amp; contrast regular expressions!)
+* `*` - match zero or more of any character; equivalent to regex `.*`
+* `?` - match any one character; equivalent to regex `.`
+* `[]` - specify a range; equivalent to regix
 
-#### more commands
+#### Some more useful commands
 * `>`, `>>`, `<`
  * a good example for `<`: use it to e.g. search in a file with `grep` and then write the search results into another file; see [answer on StackExchange](https://unix.stackexchange.com/questions/283374/what-does-the-left-chevron-triangle-bracket-do)  
 * `less` (space, b, q)
@@ -56,7 +56,7 @@
 * Tab
 
 ### Some new commands
-* `wget` and `curl`: get stuff from web, the second works on MacOS; to use it with git bash on Windows you'll have to [install it](https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058)
+* `curl` and `wget`: get stuff from web, the second works on MacOS; to use it with git bash on Windows you'll have to [install it](https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058)
 
 * `ln`: symbolic links (or just symlinks); much like a desktop shortcut on Windows
 ```
