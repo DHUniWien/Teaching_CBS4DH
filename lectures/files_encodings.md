@@ -6,7 +6,7 @@
 
   - [The Loreley-Lied](https://github.com/DHUniWien/Teaching_CBS4DH/raw/master/lectures/data/loreley.txt) as a plain-text file
   - [An icon in SVG format](https://github.com/DHUniWien/Teaching_CBS4DH/raw/master/lectures/data/download.svg)
-  - [A Word document](https://github.com/DHUniWien/Teaching_CBS4DH/raw/master/lectures/data/exampe.docx) - you can also copy and use a .docx file of your own!
+  - [A Word document](https://github.com/DHUniWien/Teaching_CBS4DH/raw/master/lectures/data/example.docx) - you can also copy and use a .docx file of your own!
 
 2. Download the `pandoc` utility [here](https://pandoc.org/installing.html), using either the Windows or Mac installer as appropriate. We will try it out in this class session, for which we will need to draw on some of our new command line skills!
 
