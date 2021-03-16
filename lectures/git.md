@@ -10,8 +10,8 @@ In this tutorial, we will work both in the browser and in a terminal window. We 
 
 Git is a command line tool with which one can administer local and remote Git repositories, allowing you to version your files and share them easily with others within a project.
 
-Github is an online service that hosts Git repositories (public as well as private) and provides social network functionality to users. Users can add issues, construct a wiki, create tasks and create pull requests on the web-site. 
- 
+Github is an online service that hosts Git repositories (public as well as private) and provides social network functionality to users. Users can add issues, construct a wiki, create tasks and create pull requests on the web-site.
+
 What you need to get started with Git:
 
 * a Github account
@@ -24,7 +24,7 @@ If you don't have a Github account, create one here:
 
 ![](images/git_repository_preparation.gif)
 
-## General workflow 
+## General workflow
 
 ![](images/git_process_diagram.gif)
 
@@ -60,7 +60,7 @@ Open a terminal window and type the following commands, replacing John Doe with 
 
 ![Git clone](images/git_cloning.gif)
 
-To work with the repository we just created we need to transfer the data from the remote repository to the local machine. Copying a remote repository to the local machine is called cloning in Git. For completeness sake I also included in the table below the git command to create a new repository on the local machine. 
+To work with the repository we just created we need to transfer the data from the remote repository to the local machine. Copying a remote repository to the local machine is called cloning in Git. For completeness sake I also included in the table below the git command to create a new repository on the local machine.
 
 Working with Git repositories is completely command line and file based, so the knowledge that you acquired about the command line and the file system over the past couple of days will come in very handy here.
 
@@ -86,7 +86,7 @@ $ cd repositoryname
 $ ls -lisa
 ```
 
-There should be your files. 
+There should be your files.
 
 Now we run the git remote command to see whether the remote repository is correctly linked with the local repository.
 
@@ -107,24 +107,24 @@ When you have a terminal window open, you are in what is called the *working dir
 
 ## Making some changes
 
-* Use your favorite editor to edit files (and you can use different editors for different files in the same project)
-* PyCharm (for Python projects), \<oXygen/\> (for XML projects), vim, notepad++, BBEdit, etc.
+* Use your favorite editor to edit files (and you can use different editors for different files in the same project; you can even put Word documents in a repository if you like, though you won't get all the same features as with text-based formats!)
+* For example, use Atom to edit your README.md file, and take the opportunity to practice Markdown, for which [you can find a guide here.](https://guides.github.com/features/mastering-markdown/)
 
 ## Working with changes locally and tracking them
 
 ![Git commit](images/git_making_changes.gif)
 
-Command | Description 
+Command | Description
 --------|-----------------
 `git status` | Show which files are modified locally or new
 `git diff` |  Show changes
 `git add`  |   Add a file to change tracking and stage  
-`git reset HEAD` |  Untrack a file or unstage 
+`git reset HEAD` |  Untrack a file or unstage
 `git checkout` | Undo changes to a file (before commit)
 
 ## Committing changes
 
-Command | Description 
+Command | Description
 --------|-----------------
 `git commit` | Make changes permanent
 `git log`  | Show history of commits
@@ -155,7 +155,7 @@ You type | What happens
 `:wq` | write your changes and quit
 `:q!` | cancel (quit without writing changes)
 
-The use of the escape key in Vim, the `i` for insert mode, `:wq` and `:q!` to cancel 
+The use of the escape key in Vim, the `i` for insert mode, `:wq` and `:q!` to cancel
 
 # Syncing repositories
 
@@ -164,7 +164,7 @@ The use of the escape key in Vim, the `i` for insert mode, `:wq` and `:q!` to ca
 Command | Description
 ------- | -----------
  `git pull` | Fetch the commits from a remote repository and merge them with the current working directory (i.e. does a fetch and a merge in one)
- `git push` | Push the commits from the local repository to a remote repository 
+ `git push` | Push the commits from the local repository to a remote repository
  `git fetch` | Fetch the commits from a remote repository into the local repository
  `git merge` | Merge the commits from the local repository with commits fetched from a remote repository (actually this works on branches; this will be explained in the git tutorial part 2)
 
@@ -210,8 +210,8 @@ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 * Create changes
 * Track changes
 * Commit changes
-* Push commits 
-* Create pull request on github 
+* Push commits
+* Create pull request on github
 
 ## How to work with branches
 
@@ -240,7 +240,7 @@ Command | Description
 Command | Description
 --------|------------
 `git merge <branch>` | Merge commits from one branch into the other.
-`git merge --abort` | Abort a merge 
+`git merge --abort` | Abort a merge
 
 * Make sure you do not have uncommitted changes.
 * If so, stash them or commit them
@@ -253,7 +253,7 @@ Command | Description
 
 ## Notes
 
-* A fork is a remote repository on GitHub. 
+* A fork is a remote repository on GitHub.
 * Forking has to do with permissions.
 * Explain difference between a fork and a branch
 * A fork is not a branch, a fork is a repository, a branch is a series of commits.
