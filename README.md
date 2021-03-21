@@ -20,9 +20,9 @@ Block | 2 March | 4 March | 9 March | 11 March | 16 March | 18 March |
 ---- | ---- | ---- | ---- | ---- | ---- | ----
 1 |  [Intro and Setup](lectures/intro_and_setup.md) | [Regular Expressions](lectures/regex_1.md) | [Command line 3](lectures/command_3.md) | [How the Internet works](lectures/internet.md) | [Git](lectures/git.md) | [Command line 4](lectures/command_4.md)
 B |  Lunch break | Coffee break | Lunch break | Coffee break | Lunch break | Coffee break
-2 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Regular expressions continued](lectures/regex_2.md) | [Files and encodings](lectures/files_encodings.md) | [Web technologies 1](lectures/web.md) | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md)
+2 |  Command line 1: [Mac](lectures/command_1_mac.md) and [Windows](lectures/command_1_windows.md) | [Regular expressions continued](lectures/regex_1.md) | [Files and encodings](lectures/files_encodings.md) | [Web technologies 1](lectures/web.md) | [Putting it all together 1](lectures/miniproject.md) | [Putting it all together 2](lectures/miniproject.md)
 B |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break
-3 |  [Command line 2](lectures/command_2.md) | Review / Practicing Error-speak | Review / Practicing Error-speak | Review / Practicing Error-speak | Review / Practicing Error-speak | [More DH](lectures/final_more.md) and wrap-up
+3 |  [Command line 2](lectures/command_2.md) | Review / Practicing Error-speak | Review / Practicing Error-speak | [Web technologies 2](lectures/web.md) | [Pre-programming](lectures/pre-programming.md) | [More DH](lectures/final_more.md) and wrap-up
 
 
 
