@@ -55,35 +55,39 @@ We will try to accompany the contents of each course with some practical steps o
 The exercise goals of each lecture are:
 - Day 1:
   - Install needed software to be used as terminal and code editor
-  - Get familiar using the shell and code editor
+  - Start to become familiar with typing commands at the prompt of your computer's shell
   - Make a note of all the error and informational messages you encounter along the way
-  - Change to your desktop directory and create a folder with empty README.md and index.html files for the project
+  - Start to become familiar with how problems are communicated by computer programs
 - Day 2:
-  - Begin to understand the mechanics of the shell and the environment
-  - Practice getting information out of the error messages you have collected
+  - Understand what regular expressions are for and when and why they are useful
+  - Learn the basic syntax of regular expressions and how to construct match patterns
 - Day 3:
-  - Apply learned RegEx methods to create the .csv file which will be used in the project
-  - Download the exercise/lecture3/data.csv file and inspect it using the code editor
-  - Practice getting information out of the error messages you have collected
+  - Learn how to manipulate the contents of files on the command line
+  - Understand the concept of file types and formats, and understand how your computer guesses what kind of file something is
+  - Learn the `file` command, which takes a different approach to guessing what kind of file something is
+  - Practice getting information out of the error messages you have collected so far
 - Day 4:
-  - Make basic modifications the index.html and README.md files following the boilerplate code found in exercise/lecture3 folder
-  - Create an empty repository on Github wit MIT Licence and push your project folder to remote (project folder should contain index.html, data.csv, README.md and LICENCE files)
+  - Understand what happens behind the scenes when you navigate to a URL in a web browser, or when you send an email
   - Make requests of Web servers the same way that browsers do
-  - Start, and use network protocols to interact with, a program on your own computer
+  - Learn about the three "Web languages" (HTML, CSS, Javascript) and how they work together to define the content, look, and functionality of web pages
+  <!-- Start, and use network protocols to interact with, a program on your own computer -->
 - Day 5:
-  - Modify the JavaScript function given in the boilerplate code to execute various regex tasks
-  - See the output of regex by opening the index.html file with a browser
-  - Understand how our code fetches the data using HTTP requests
-  - Create HTML elements such as tables, divs, paragraphs etc. for our output
-  - Add basic CSS styles for different elements
-  - Add basic interaction elements e.g. buttons in HTML
-  - Bind the elements to our JavaScript functions to toggle the data being displayed
-  - Finalize the project, push it to git repo and make it online using GitHub Pages
+  - Create an empty repository on Github with a README and an MIT Licence
+  - Practice working with Git and Github, the add/commit/push cycle, and pulling remote changes
+  - Understand how code collaboration works on Github, and fork the `miniproject` repository
+  - Use regular expression knowledge to collect, transform, and clean data taken from Wikipedia into a format suitable for a web application
+  - Master the terminology that programmers take for granted
 - Day 6:
   - Write simple routines on the command line
   - Learn how to turn these routines into executable programs
   - Learn about different sorts of shells
-  - Master the terminology that programmers take for granted
+  - Modify the JavaScript function given in the boilerplate code to execute various regex tasks
+  - See the output of regex by opening the index.html file with a browser
+  - Understand how our code fetches the data using HTTP requests
+  - Add and modify basic CSS styles for different elements
+  - Add and modify basic interaction elements e.g. buttons in HTML
+  - Bind the elements to our JavaScript functions to toggle the data being displayed
+  - Finalize the project, push it to git repo and make it online using GitHub Pages
 
 ## Credits
 - Bootcamp: Computational groundwork skills by Pittsburgh-NEH-Institute: https://github.com/Pittsburgh-NEH-Institute/Institute-Materials-2017
